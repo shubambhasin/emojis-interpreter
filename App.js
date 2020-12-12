@@ -26,6 +26,7 @@ export default function App() {
 
 
   const [meaning, setMeaning] = useState("");
+  const [emojiName, setEmojiName] = useState("");
 
   
 
@@ -47,7 +48,7 @@ export default function App() {
   checkEmojiName = (emoji) =>
   {
     console.log(emoji)
-    setMeaning(emojiDictonary[emoji])
+    setEmojiName(emojiDictonary[emoji])
   }
 
   return (
@@ -61,7 +62,7 @@ export default function App() {
 
       <h2> Emojis in Our Database 👇 :</h2>
 
-      <h3>Clicked Emoji : {meaning}</h3>
+      <h3>Clicked Emoji : {emojiName}</h3>
 
       <div>
         {
