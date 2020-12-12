@@ -166,7 +166,7 @@ export default function App() {
     <div className="App">
       
       <h1 className="heading">Whats my Emoji 😍</h1>
-      <input onChange={inputEventHandler}></input>
+      <input placeholder="Enter an Emoji" onChange={inputEventHandler}></input>
       
       <h1></h1>
       <h3 className="heading2">Above  ☝️️ Emoji Means: {meaning}</h3>
@@ -196,12 +196,21 @@ export default function App() {
 
       
 
-      
+      <h1></h1>
+      <h1></h1>
 
 
-     
+      <footer>
+
+        <h3>Made by <strong>Shubam Bhasin</strong>  with ❤️ in Jammu and Kashmir</h3>
+        <h4>All Rights Reserved</h4>
+
+
+      </footer>
       
       
     </div>
+
+    
   );
 }
